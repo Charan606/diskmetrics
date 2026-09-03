@@ -24,6 +24,7 @@ for management utilizes that:
   * display the metrics in a useful form the administrators 
   * provide reporting mechanisms to alert administrators of nefarious users and/or capacity concerns
   * support local (APFS) and shared (NFS,pNFS) volumes
+  * any other interesting file system related metrics, data, etc (the more the better!)
 
 ## Rules
 
