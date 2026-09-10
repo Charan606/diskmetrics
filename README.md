@@ -1,5 +1,5 @@
-# hackwestex27
-TTU HackWesTex 2027 Developer Challenge: macOS AI File System Metrics
+# hackwestex26
+TTU HackWesTex 2026 Developer Challenge: macOS AI File System Metrics
 
 ## Introduction
 
