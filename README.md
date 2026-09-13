@@ -5,7 +5,7 @@ TTU HackWesTex 2026 Developer Challenge: macOS AI File System Metrics
 
 One the hidden challenges of running AI models on non-cloud infrastructure is the ability to support 
 the scalable data storage requirements of the users.  Healthcare professionals, law firms and 
-other private companies may store terabytes or petabytes of data at rest in structured file systems.  
+other private companies may store terabytes or petabytes of data at rest in structured file systems.
 Managing these file systems is largely relegated to mixtures of basic open source tools and highly 
 proprietary/file system specific tools designed to run in Linux or BSD (see ZFS pooling).
 
