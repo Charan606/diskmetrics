@@ -2,7 +2,6 @@
 
 Team submission for HackWesTex. [Original challenge brief](CHALLENGE-BRIEF.md).
 
-**Assembly status:** awaiting our teammate's `Sources/DiskMetrics/DiskMetricsApp.swift`. The remaining project files are present. `make test` can run now; building the complete app requires that final file.
 
 
 See your Mac's storage space, disk activity, and reported drive health in one simple dashboard.

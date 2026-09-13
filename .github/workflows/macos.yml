@@ -6,15 +6,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: make test
-      - name: Check for app entry point
-        id: app
-        run: |
-          if [ -f Sources/DiskMetrics/DiskMetricsApp.swift ]; then
-            echo 'present=true' >> "$GITHUB_OUTPUT"
-          else
-            echo '::warning::Awaiting teammate upload: Sources/DiskMetrics/DiskMetricsApp.swift. App build is not validated.'
-          fi
-      - if: steps.app.outputs.present == 'true'
-        run: make xcode-test
-      - if: steps.app.outputs.present == 'true'
-        run: make app
+      - run: make xcode-test
+      - run: make app
